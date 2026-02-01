@@ -7,6 +7,11 @@
 - Install firefox: `sudo pacman -S firefox`
 - Copy content of `.config/mimeapps.list` into the corresponding file
 
+# Update system and install required packages
+- In the `install` menu, run `Steam` and `Xbox controller`
+- In the `update` menu, run `Omarchy` and `Firmware`
+- Reboot
+
 # Add SSH key
 - Create SSH key: `ssh-keygen -t ed25519 -C "soleyannp@gmail.com"`
 - Start SSH agent: `eval "$(ssh-agent -s)"`
