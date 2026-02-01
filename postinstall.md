@@ -1,5 +1,7 @@
-# Configure monitors
+# Configure system
 - Copy content of `.config/hypr/monitors.conf` into the corresponding file
+- Copy content of `.config/hypr/hypridle.conf` into the corresponding file
+- Set power profile to `performance`
 
 # Set firefox as main browser
 - Install firefox: `sudo pacman -S firefox`
