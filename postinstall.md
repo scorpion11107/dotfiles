@@ -1,6 +1,7 @@
 # Configure system
 - Copy content of `.config/hypr/monitors.conf` into the corresponding file
 - Copy content of `.config/hypr/hypridle.conf` into the corresponding file
+- Copy `.config/omarchy/backgrounds/nord/arch.png` into the corresponding folder
 - Set power profile to `performance`
 
 # Set firefox as main browser
