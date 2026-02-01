@@ -25,8 +25,7 @@ image/webp=imv.desktop
 image/bmp=imv.desktop
 image/tiff=imv.desktop
 
-application/pdf=org.gnome.Evince.desktop
-
+application/pdf=firefox.desktop
 text/html=firefox.desktop
 x-scheme-handler/http=firefox.desktop
 x-scheme-handler/https=firefox.desktop
