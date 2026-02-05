@@ -1,19 +1,12 @@
-# Intructions to run after installing Omarchy
+# Intructions to run after installing CachyOS
 
-## Configure system
-- Copy content of `.config/hypr/monitors.conf` into the corresponding file
-- Copy content of `.config/hypr/hypridle.conf` into the corresponding file
-- Copy `.config/omarchy/backgrounds/nord/arch.png` into the corresponding folder
-- Set power profile to `performance`
+## Install and configure Neovim
+- Install neovim with `sudo pacman -S neovim`
+- 
 
-## Set firefox as main browser
-- Install firefox: `sudo pacman -S firefox`
-- Copy content of `.config/mimeapps.list` into the corresponding file
-
-## Update system and install required packages
-- In the `install` menu, run `Steam` and `Xbox controller`
-- In the `update` menu, run `Omarchy` and `Firmware`
-- Reboot
+## Configure terminal
+- Copy the contents of `.config/alacritty/alacritty.toml` into the corresponding file
+- Copy the contents of `.config/fish` into the corresponding file
 
 ## Add SSH key
 - Create SSH key: `ssh-keygen -t ed25519 -C "soleyannp@gmail.com"`
