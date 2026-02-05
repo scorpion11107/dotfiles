@@ -2,11 +2,11 @@
 
 ## Install and configure Neovim
 - Install neovim with `sudo pacman -S neovim`
-- 
+- Run `git clone https://github.com/LazyVim/starter ~/.config/nvim && rm -rf ~/.config/nvim/.git`
 
 ## Configure terminal
 - Copy the contents of `.config/alacritty/alacritty.toml` into the corresponding file
-- Copy the contents of `.config/fish` into the corresponding file
+- Remove the `fastfetch` fish_greeting in `/usr/share/cachyos-fish-config/cachyos-config.fish`
 
 ## Add SSH key
 - Create SSH key: `ssh-keygen -t ed25519 -C "soleyannp@gmail.com"`
