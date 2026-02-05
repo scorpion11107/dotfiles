@@ -9,7 +9,7 @@ decorations_theme_variant = "Dark"
 
 [window.dimensions]
 columns = 250
-lines = 55
+lines = 58
 
 [window.class]
 instance = "Alacritty"
