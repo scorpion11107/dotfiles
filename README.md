@@ -23,24 +23,28 @@
     - `cd cachyos-repo`
     - `sudo ./cachyos-repo.sh`
 - Install the kernels and create bootloader entry
-    - `sudo pacman -S linux-cachyos linux-cachyos-headers nvidia-dkms`
+    - `sudo pacman -S --noconfirm linux-cachyos linux-cachyos-headers nvidia-dkms`
     - `cd /boot/loader/entries`
     - Copy the existing entry into `cachyos.conf`
     - Modify the new entry:
-
+      
       ```
       title Arch Linux (cachyos)
       linux /vmlinuz-linux-cachyos
       initrd /initramfs-linux-cachyos.img
       options root=UUID=... (LEAVE THIS ALONE)
       ```
+      
+    - Reboot
 
 ## Configure the system
-- Install the necessary tools:
-    - First, install paru with `sudo pacman -S paru`
-    - Then, use it to install the necessary tools: `paru -S ghostty mako swww waybar network-manager-applet blueman fastfetch ttf-jetbrains-mono-nerd rofi-wayland`
+- Install the necessary tools: `pacman -S --noconfirm ghostty mako swww waybar network-manager-applet blueman fastfetch ttf-jetbrains-mono-nerd rofi-wayland`
 - Copy the content of `.config` into the corresponding files
 - Set universal dark themes:
     - Install required packages with `sudo pacman -S gnome-themes-extra qt5ct qt6ct adwaita-qt5 adwaita-qt6`
     - Set cholor scheme `gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark' && gsettings set org.gnome.desktop.interface gtk-theme 'Adwaita-dark'`
-    - Run `qt5ct` to configure Qt apps
+    - Run `qt5ct` and `qt6ct` to configure Qt apps
+    - Set Dolhin's theme to Breze Dark
+- Setup lazyvim:
+    - Install lazyvim: `git clone https://github.com/LazyVim/starter ~/.config/nvim && rm -rf ~/.config/nvim/.git`
+    - Install lazygit: `sudo pacman -S --noconfirm lazygit`
