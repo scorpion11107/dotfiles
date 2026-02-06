@@ -39,4 +39,7 @@
 - Install the necessary tools:
     - First, install paru with `sudo pacman -S paru`
     - Then, use it to install the necessary tools: `paru -S ghostty mako swww waybar network-manager-applet blueman fastfetch ttf-jetbrains-mono-nerd rofi-wayland`
-- Copy the content of `.config/hypr/hyprland.conf` into the corresponding file
+- Copy the content of `.config` into the corresponding files
+- Set universal dark themes:
+    - Install required packages with `sudo pacman -S gnome-themes-extra qt5ct qt6ct adwaita-qt5 adwaita-qt6`
+    - Set cholor scheme `gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark' && gsettings set org.gnome.desktop.interface gtk-theme 'Adwaita-dark'`
