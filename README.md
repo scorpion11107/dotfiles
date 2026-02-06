@@ -38,5 +38,5 @@
 ## Configure the system
 - Install the necessary tools:
     - First, install paru with `sudo pacman -S paru`
-    - Then, use it to install the necessary tools: `paru -S ghostty walker-bin mako swww waybar network-manager-applet blueman fastfetch ttf-jetbrains-mono-nerd`
+    - Then, use it to install the necessary tools: `paru -S ghostty walker-bin elephant-bin mako swww waybar network-manager-applet blueman fastfetch ttf-jetbrains-mono-nerd`
 - Copy the content of `.config/hypr/hyprland.conf` into the corresponding file
