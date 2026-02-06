@@ -118,8 +118,7 @@ element selected.normal {
     text-color: @foreground;
 }
 
-element normal.normal,
-element alternate.normal {
+element normal.normal, element alternate.normal {
     background-color: transparent;
     text-color:       @foreground;
 }
