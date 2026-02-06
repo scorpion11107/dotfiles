@@ -43,3 +43,4 @@
 - Set universal dark themes:
     - Install required packages with `sudo pacman -S gnome-themes-extra qt5ct qt6ct adwaita-qt5 adwaita-qt6`
     - Set cholor scheme `gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark' && gsettings set org.gnome.desktop.interface gtk-theme 'Adwaita-dark'`
+    - Run `qt5ct` to configure Qt apps
