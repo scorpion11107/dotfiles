@@ -1,0 +1,24 @@
+* {
+    border: none;
+    border-radius: 0;
+    font-family: "JetBrainsMono Nerd Font";
+    font-size: 14px;
+    min-height: 0;
+}
+window#waybar {
+    background: rgba(26, 27, 38, 0.9);
+    color: #c0caf5;
+}
+#workspaces button {
+    padding: 0 10px;
+    color: #7aa2f7;
+}
+#workspaces button.active {
+    color: #bb9af7;
+    background: rgba(255, 255, 255, 0.1);
+}
+#clock, #battery, #cpu, #memory, #disk, #temperature, #backlight, #network, #pulseaudio, #wireplumber, #custom-media, #tray, #mode, #idle_inhibitor, #scratchpad, #mpd {
+    padding: 0 10px;
+    color: #c0caf5;
+    background-color: transparent;
+}
