@@ -117,3 +117,24 @@ element selected.normal {
     background-color: @active;
     text-color: @foreground;
 }
+
+element normal.normal,
+element alternate.normal {
+    background-color: transparent;
+    text-color:       @foreground;
+}
+
+element selected.normal {
+    background-color: @active;
+    text-color:       @foreground;
+}
+
+element normal.urgent, element alternate.urgent, element selected.urgent {
+    background-color: @urgent;
+    text-color:       @background;
+}
+
+element normal.active, element alternate.active, element selected.active {
+    background-color: @active;
+    text-color:       @background;
+}
