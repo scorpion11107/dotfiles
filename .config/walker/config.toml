@@ -1,0 +1,30 @@
+[app]
+keep_open = false
+
+[placeholder]
+text = "Search..."
+
+[window]
+position = "center"
+width = 600
+box.radius = 10
+
+[list]
+height = 400
+
+[[modules]]
+name = "applications"
+prefix = ""
+keep_open = false
+
+[modules.config]
+show_generic = false
+show_sub_text = false
+
+[[modules]]
+name = "runner"
+prefix = "!"
+
+[[modules]]
+name = "websearch"
+prefix = "?"
